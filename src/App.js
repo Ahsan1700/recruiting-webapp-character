@@ -1,21 +1,16 @@
-import { useState } from 'react';
+import React from 'react';
 import './App.css';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
-
+import PartyContainer from './containers/PartyContainer.js';
 
 function App() {
-  const [num, setNum] = useState(0);
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React Coding Exercise</h1>
+        <h1>React Exercise - Party Creator</h1>
       </header>
       <section className="App-section">
         <div>
-          Value:
-          {num}
-          <button>+</button>
-          <button>-</button>
+          <PartyContainer/>
         </div>
       </section>
     </div>

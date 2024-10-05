@@ -1,0 +1,22 @@
+.button1 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border:1px solid white;
+}
